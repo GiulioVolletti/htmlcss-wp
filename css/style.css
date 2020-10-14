@@ -122,6 +122,26 @@ aside {
 footer {
   height: 15vh;
   margin: 15px;
-  background-color: lightblue;
+  background-color: white;
+}
+
+.top-footer {
+  text-align: center;
+  color: grey;
+  border-bottom: 2px solid lightgrey;
+}
+
+.link-to {
+  font-size: 40px;
+  color: lightgrey;
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+  padding: 10px;
+}
+
+.link-to:hover i {
+  cursor: pointer;
+  color: blue;
 }
 /* /footer */
