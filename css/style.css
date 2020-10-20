@@ -68,7 +68,6 @@ main {
 }
 
 .container {
-  margin: 10px;
   display: inline-block;
 }
 
@@ -83,18 +82,14 @@ main::after {
   left: 50%;
   transform: translateX(-50%);
   width: 40%;
-  margin: 10px 0;
   background-color: white;
 }
 
 aside {
-    height: 100%;
     width: 25%;
 }
 
 .left , .right {
-  margin: 10px;
-  width: 90%;
   background-color: white;
 }
 
@@ -134,8 +129,7 @@ h3{
 
 /* footer */
 footer {
-  height: 15vh;
-  margin: 15px;
+  margin-top: 15px;
   background-color: white;
 }
 
