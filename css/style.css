@@ -55,7 +55,7 @@ a {
   text-decoration: none;
   color: white;
 }
-li:hover > a {
+#nav-bar > li:hover {
   background-color: grey;
 }
 /* /bottom header */
@@ -103,7 +103,7 @@ aside {
 
 h2 {
   text-transform: uppercase;
-  text-shadow: 2px 1px #000099;
+  text-shadow: 1.5px 1.5px black;
 }
 
 .fa-rss-square {
